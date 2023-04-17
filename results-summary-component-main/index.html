@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Results summary component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      margin: 2rem 0;
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+  <main class="container">
+    <section class="results">
+
+      <p class="resultsP1">Your Result</p>
+      <div class="circle">
+        <p class="resultsP2">
+          <span class="score">76</span><br>
+          <span class="of100">of 100</span>
+        </p>
+      </div>
+
+
+      <span class="great">Great !</span>
+      <p class="resultsP3">You scored higher than 65% of the people who have taken these tests.</p>
+    </section>
+
+    <section class="summary">
+      <h1>Summary</h1>
+      <ul>
+        <li class="reaction">
+          <div>
+            <img src="./assets/images/icon-reaction.svg" class="bolt" alt="bolt icon">
+            <span class="listArea">Reaction</span>
+          </div> <div>80 <span class="lite">/ 100</span></div>
+        </li>
+        <li class="memory">
+          <div>
+            <img src="./assets/images/icon-memory.svg" class="bolt" alt="bolt icon">
+            <span class="listArea">Memory</span>
+          </div> <div>80 <span class="lite">/ 100</span></div>
+        </li>
+        <li class="verbal">
+          <div>
+            <img src="./assets/images/icon-verbal.svg" class="bolt" alt="bolt icon">
+            <span class="listArea">Verbal</span>
+          </div> <div>80 <span class="lite">/ 100</span></div>
+        </li>
+        <li class="visual">
+          <div>
+            <img src="./assets/images/icon-visual.svg" class="bolt" alt="bolt icon">
+            <span class="listArea">Visual</span>
+          </div> <div>80 <span class="lite">/ 100</span></div>
+        </li>
+      </ul>
+      <button>Continue</button>
+    </section>
+  </main>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Bobby S</a>.
+  </div>
+</body>
+
+</html>
